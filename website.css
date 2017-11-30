@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+    /* width:100vw; */
+    /* height:100vh; */
+}
+body{
+    font-size:20px;
+    font-family: 'Permanent Marker', cursive;
+    background-image: url('pics/blue-background.jpeg');
+    background-size: cover;
+}
+#about{
+    position: absolute;
+    text-align: 'center';
+    background-color:goldenrod;
+    margin-left:2%;
+    padding:0 1% 0 1%;
+}
+h2{
+    background-color:goldenrod;    
+}
+#heading{
+    width:90vw;
+    height:900px;
+}
+#intro p{
+    position: relative;
+    margin: -20% 0 0 10%;
+    width:30%;
+    height:30%;
+    
+}
+#services{
+    width:60%;
+    margin-left: 20%;
+}
+li:hover{
+    color: lightblue;
+}
+h2:hover{
+    text-transform: uppercase;
+}
+#weath{
+    position: absolute;
+    margin-top:-500px;
+    margin-left:80%;
+}
+#news{
+    width:40%;
+    margin-left:20%;
+    text-transform: uppercase;    
+}
+#news:hover{
+    color:green;
+}
